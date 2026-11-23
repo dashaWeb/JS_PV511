@@ -166,38 +166,51 @@
 // console.log(colors.findIndex(item => item.length == 6))
 // console.log(colors.join("-"))
 
-let line = `test
-                test
-                        test`
-console.log(line)
-line = "Lorem ipsum dolor, sit amet consectetur adipisicing elit";
-console.log(line[0])
-console.log(line.at(-1))
+// let line = `test
+//                 test
+//                         test`
+// console.log(line)
+// line = "Lorem ipsum dolor, sit amet consectetur adipisicing elit";
+// console.log(line[0])
+// console.log(line.at(-1))
 
-line[0] = "l"
-console.log(line)
+// line[0] = "l"
+// console.log(line)
 
-console.log(line, line.length)
-console.log(line, line.indexOf('sit'))
-console.log(line, line.lastIndexOf('sit'))
-console.log(line, line.includes('sit'))
-console.log(line.toLowerCase())
-console.log(line.toUpperCase())
-console.log(line.charCodeAt(0))
+// console.log(line, line.length)
+// console.log(line, line.indexOf('sit'))
+// console.log(line, line.lastIndexOf('sit'))
+// console.log(line, line.includes('sit'))
+// console.log(line.toLowerCase())
+// console.log(line.toUpperCase())
+// console.log(line.charCodeAt(0))
 
-line = "Lorem ipsum dolor  Lorem" + "!!!!"
-console.log(line.slice(0,5))
-console.log(line.substring(0,5))
-console.log(line.trim())
+// line = "Lorem ipsum dolor  Lorem" + "!!!!"
+// console.log(line.slice(0,5))
+// console.log(line.substring(0,5))
+// console.log(line.trim())
 
-console.log(line)
-console.log(line.replace("Lorem","JavaScript"))
-console.log(line.replaceAll("Lorem","JavaScript"))
-console.log(line.startsWith("Lorem"))
-console.log(line.endsWith("Lorem"))
-console.log("*".repeat(5))
-console.log(line.split('o'))
-
-
+// console.log(line)
+// console.log(line.replace("Lorem","JavaScript"))
+// console.log(line.replaceAll("Lorem","JavaScript"))
+// console.log(line.startsWith("Lorem"))
+// console.log(line.endsWith("Lorem"))
+// console.log("*".repeat(5))
+// console.log(line.split('o'))
 
 
+// function Fraction(num, denum)
+// {
+//         this.num = num;
+//         this.denum = denum;
+
+//         this.print = () => `${this.num}/${this.denum}`;
+//         this.sum = (other) => new Fraction(this.num * other.denum + other.num * this.denum, this.denum * other.denum); 
+// }
+
+// let one = new Fraction(1,2);
+// let two = new Fraction(2,3);
+
+// console.log(one.print());
+// console.log(two.print());
+// console.log((one.sum(two)).print())
