@@ -122,7 +122,8 @@ let win = document.querySelector(".window");
 
 win.onmousemove = function(e)
 {
-    console.log(e.clientX, e.clientY)
+    // console.log(e.clientX, e.clientY)
+    console.log(e)
 }
 win.oncontextmenu = function()
 {
